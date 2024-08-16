@@ -1,0 +1,40 @@
+.aiChatMessage {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 12px 0;
+  justify-content: left;
+}
+
+.humanChatMessage {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+  justify-content: right;
+}
+
+.messageText {
+  padding: 12px 24px;
+  border-radius: 25px;
+  max-width: 800px;
+  line-height: 1.4em;
+  white-space: pre-wrap;
+}
+
+.humanChatMessage .messageText {
+  background-color: #b0ff92;
+}
+
+.aiChatMessage .messageText {
+  background-color: #f2f2f2;
+}
+
+.aiChatMessage .messageText ul {
+  margin: 0;
+  padding: 0;
+}
+
+.aiChatMessage .messageText * {
+  padding: revert;
+}
